@@ -121,7 +121,12 @@ header > h1 {
 .comment img {
   width: 150px;
 }
-
+footer p {
+  background-color: #6700ee;
+  color: white;
+  padding: 1.5em;
+  text-align: center;
+}
 @media only screen and (min-width: 800px) {
   .top-stories {
     display: flex;
