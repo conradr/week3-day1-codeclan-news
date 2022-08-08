@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #6700ee;
+}
+.nav-item {
+  color: white;
+  padding: 1.2em;
+}
+
+header > nav > ul {
+  display: flex;
+  margin-top: 1.4em;
+}
+
+header > h1 {
+  font-size: 1.4rem;
+  color: #00f7ff;
+  font-weight: 600;
+  padding: 0.7em;
+}
+
+.login-form {
+  background-color: #6700ee;
+  color: white;
+  padding: 1.5em;
+}
+
+.login-form > h2 {
+  font-size: 1.3rem;
+}
+.form-input-wrapper {
+  padding-top: 10px;
+}
+.form-input {
+  width: 100%;
+}
+.submit-button {
+  background-color: #00f7ff;
+  padding: 0.6em;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+.purple-well {
+  background-color: #6700ee;
+  color: white;
+  padding: 1.5em;
+  text-align: center;
+}
+.purple-well a {
+  color: white;
+  padding: 1.2em;
+}
+.purple-well h3 {
+  color: white;
+}
+.purple-well ul {
+  display: flex;
+  justify-content: center;
+}
+
+.news-header {
+  padding: 1.2em;
+  background-color: #eeedeb;
+}
+
+.headlines {
+  padding: 1.2em;
+  background-color: #eeedeb;
+}
+
+.headlines h4 {
+  font-size: 1.4em;
+  padding-top: 1.2em;
+}
+
+.main-article {
+  padding: 1.2em;
+}
+.comment {
+  display: flex;
+  padding: 1.2em;
+}
+.comment-content {
+  padding: 1.2em;
+}
+.comment img {
+  width: 150px;
+}
+
+@media only screen and (min-width: 800px) {
+  .top-stories {
+    display: flex;
+  }
+  .top-stories > section {
+    background-color: #6700ee;
+  }
+  .main-article {
+    width: 80%;
+    margin: auto;
+  }
+  .comment {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .headlines {
+    display: flex;
+  }
+  .headlines img {
+    width: 300px;
+    padding: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  header {
+    padding: 2em;
+  }
+}
